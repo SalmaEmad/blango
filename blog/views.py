@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.shortcuts import render
 from django.utils import timezone
 from blog.models import Post
+import logging
 
 logger = logging.getLogger(__name__)
 
